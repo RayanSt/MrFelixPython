@@ -34,8 +34,8 @@ class Player(pygame.sprite.Sprite):
 class Ralph(pygame.sprite.Sprite):
     def __init__(self):
 
-        self.imagen_izquierda = pygame.image.load("../Allin/imagen02.png").convert_alpha()
-        self.imagen2_izquierda = pygame.image.load("../Allin/imagen03.png").convert_alpha()
+        self.imagen_izquierda = pygame.image.load("../Allin/image02.png").convert_alpha()
+        self.imagen2_izquierda = pygame.image.load("../Allin/image03.png").convert_alpha()
         self.imagen_derecha = pygame.image.load("../Allin/ralph02.png").convert_alpha()
         self.imagen2_derecha = pygame.image.load("../Allin/ralph03.png").convert_alpha()
         self.enojado1 = pygame.image.load("../Allin/ralph01.png").convert_alpha()
@@ -49,20 +49,23 @@ class Ralph(pygame.sprite.Sprite):
         self.enojado9 = pygame.image.load("../Allin/ralph11.png").convert_alpha()
         self.enojado10 = pygame.image.load("../Allin/ralph12.png").convert_alpha()
         self.enojado11 = pygame.image.load("../Allin/ralph13.png").convert_alpha()
-        self.imagenes = [[self.imagen_izquierda,self.imagen2_izquierda],
-                         [self.imagen_derecha,self.imagen2_derecha],
-                         [self.enojado1,self.enojado2,self.enojado3,self.enojado4,self.enojado5,self.enojado6,self.enojado7,
-                          self.enojado8,self.enojado9,self.enojado10,self.enojado11]]
+        self.imagenes = [self.imagen_izquierda,self.imagen2_izquierda]
+       # self.imagenes = [(self.imagen_izquierda,self.imagen2_izquierda),
+        #                 (self.imagen_derecha,self.imagen2_derecha),
+         #                (self.enojado1,self.enojado2,self.enojado3,self.enojado4,self.enojado5,self.enojado6,self.enojado7,
+          #                self.enojado8,self.enojado9,self.enojado10,self.enojado11)]
         self.imagen_actual = 0
         self.moviendo = False
+        self.sentido = True
         self.imagen = self.imagenes[self.imagen_actual]
         self.rect = self.imagen.get_rect()
-        (self.rect.top,self.rect.left) = (560,95)
+        (self.rect.top,self.rect.left) = (50,50)
 
     def mover(self, vx, vy):
         self.rect.move_ip(vx,vy)
 
-    def update(self, superficie,vx,vy,t):
+    def update(self, superficie,vx,vy,t, sentidodere):
+        self.sentido = sentidodere
         if (vx,vy) == (0,0):
             self.moviendo = False
         else:
@@ -72,9 +75,10 @@ class Ralph(pygame.sprite.Sprite):
         if self.imagen_actual>(len(self.imagenes)-1):
             self.imagen_actual=0
         #self.mover(vx, vy)
-        self.imagen = self.imagenes[0][self.imagen_actual]
+        if sentidodere == True:
+            self.imagen = self.imagenes[self.imagen_actual]
         if self.moviendo == False:
-            self.imagen = self.imagenes[0][0]
+            self.imagen = self.imagenes[0]
         superficie.blit(self.imagen, self.rect)
 
 
@@ -124,6 +128,7 @@ def main():
     pygame.display.set_caption("Ventana")
     explosion = pygame.mixer.Sound("../Allin/explosion.wav")
     exploto = pygame.image.load("../Allin/explosion.png")
+    ralphIma = pygame.image.load("../Allin/quieto.png")
     salir = False
     #reloj
     reloj1 = pygame.time.Clock()
@@ -133,6 +138,7 @@ def main():
     #variable auxiliares
     (vx,vy) = (0,0)
     player = Player()
+    ralph = Ralph()
     velocidadX = 65
     velocidadY = 100
     recs1 = Recs(25)
@@ -208,6 +214,8 @@ def main():
             player.update(pantalla,vx,vy,t)
         recs1.pintar(pantalla)
         pygame.display.update()
+        pantalla.blit(ralphIma,(560,95))
+        ralph.update(pantalla,vx,vy,t,True)
 
         recs1.reagregar()
     pygame.quit()
