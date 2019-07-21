@@ -4,8 +4,8 @@ import pygame
 class Player(pygame.sprite.Sprite):
     def __init__(self):
 
-        self.imagen1 = pygame.image.load("quieto.png").convert_alpha()
-        self.imagen2 = pygame.image.load("arriba.png").convert_alpha()
+        self.imagen1 = pygame.image.load("../Allin/quieto.png").convert_alpha()
+        self.imagen2 = pygame.image.load("../Allin/arriba.png").convert_alpha()
         self.imagenes = [self.imagen1,self.imagen2]
         self.imagen_actual = 0
         self.moviendo = False
@@ -25,10 +25,56 @@ class Player(pygame.sprite.Sprite):
             self.imagen_actual += 1
         if self.imagen_actual>(len(self.imagenes)-1):
             self.imagen_actual=0
-        self.mover(vx, vy)
+        #self.mover(vx, vy)
         self.imagen = self.imagenes[self.imagen_actual]
         if self.moviendo == False:
             self.imagen = self.imagenes[0]
+        superficie.blit(self.imagen, self.rect)
+
+class Ralph(pygame.sprite.Sprite):
+    def __init__(self):
+
+        self.imagen_izquierda = pygame.image.load("../Allin/imagen02.png").convert_alpha()
+        self.imagen2_izquierda = pygame.image.load("../Allin/imagen03.png").convert_alpha()
+        self.imagen_derecha = pygame.image.load("../Allin/ralph02.png").convert_alpha()
+        self.imagen2_derecha = pygame.image.load("../Allin/ralph03.png").convert_alpha()
+        self.enojado1 = pygame.image.load("../Allin/ralph01.png").convert_alpha()
+        self.enojado2 = pygame.image.load("../Allin/ralph04.png").convert_alpha()
+        self.enojado3 = pygame.image.load("../Allin/ralph05.png").convert_alpha()
+        self.enojado4 = pygame.image.load("../Allin/ralph06.png").convert_alpha()
+        self.enojado5 = pygame.image.load("../Allin/ralph07.png").convert_alpha()
+        self.enojado6 = pygame.image.load("../Allin/ralph08.png").convert_alpha()
+        self.enojado7 = pygame.image.load("../Allin/ralph09.png").convert_alpha()
+        self.enojado8 = pygame.image.load("../Allin/ralph10.png").convert_alpha()
+        self.enojado9 = pygame.image.load("../Allin/ralph11.png").convert_alpha()
+        self.enojado10 = pygame.image.load("../Allin/ralph12.png").convert_alpha()
+        self.enojado11 = pygame.image.load("../Allin/ralph13.png").convert_alpha()
+        self.imagenes = [[self.imagen_izquierda,self.imagen2_izquierda],
+                         [self.imagen_derecha,self.imagen2_derecha],
+                         [self.enojado1,self.enojado2,self.enojado3,self.enojado4,self.enojado5,self.enojado6,self.enojado7,
+                          self.enojado8,self.enojado9,self.enojado10,self.enojado11]]
+        self.imagen_actual = 0
+        self.moviendo = False
+        self.imagen = self.imagenes[self.imagen_actual]
+        self.rect = self.imagen.get_rect()
+        (self.rect.top,self.rect.left) = (560,95)
+
+    def mover(self, vx, vy):
+        self.rect.move_ip(vx,vy)
+
+    def update(self, superficie,vx,vy,t):
+        if (vx,vy) == (0,0):
+            self.moviendo = False
+        else:
+            self.moviendo = True
+        if t == 1:
+            self.imagen_actual += 1
+        if self.imagen_actual>(len(self.imagenes)-1):
+            self.imagen_actual=0
+        #self.mover(vx, vy)
+        self.imagen = self.imagenes[0][self.imagen_actual]
+        if self.moviendo == False:
+            self.imagen = self.imagenes[0][0]
         superficie.blit(self.imagen, self.rect)
 
 
@@ -76,14 +122,13 @@ def main():
     negro = (0,0,0)
     pantalla = pygame.display.set_mode([480,640])
     pygame.display.set_caption("Ventana")
-    explosion = pygame.mixer.Sound("explosion.wav")
-    exploto = pygame.image.load("explosion.png")
+    explosion = pygame.mixer.Sound("../Allin/explosion.wav")
+    exploto = pygame.image.load("../Allin/explosion.png")
     salir = False
     #reloj
     reloj1 = pygame.time.Clock()
-    imagen1 = pygame.image.load("quieto.png").convert_alpha()
-    imagenfondo = pygame.image.load("fondo.png").convert_alpha()
-    pygame.mixer.music.load("musica.mp3")
+    imagenfondo = pygame.image.load("../Allin/fondo.png").convert_alpha()
+    pygame.mixer.music.load("../Allin/musica.mp3")
 
     #variable auxiliares
     (vx,vy) = (0,0)
@@ -104,16 +149,24 @@ def main():
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_LEFT:
                         left_apretada = True
+                        player.mover(-velocidadX,0)
                         vx = -velocidadX
+                        #vy = 0
                     if event.key == pygame.K_RIGHT:
                         right_apretada = True
                         vx = velocidadX
+                        #vy = 0
+                        player.mover(velocidadX,0)
                     if event.key == pygame.K_UP:
                         top_apretada = True
                         vy = -velocidadY
+                        #vx = 0
+                        player.mover(0,-velocidadY)
                     if event.key == pygame.K_DOWN:
                         down_apretada = True
                         vy = velocidadY
+                        #vx = 0
+                        player.mover(0,velocidadY)
                 if event.type == pygame.KEYUP:
                     if event.key == pygame.K_LEFT:
                         left_apretada = False
