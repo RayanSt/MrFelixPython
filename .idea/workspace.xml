@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="096fcb12-f4e3-4c40-8a74-8c3d28003693" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sprites/Player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/Ralph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/Recs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Allin/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Allin/Main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Main1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Allin/tut35.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/tut35.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +19,41 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sprites/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1921">
-              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+            <state relative-caret-position="32">
+              <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sprites/Recs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sprites/Ralph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sprites/Player.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -48,6 +79,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Allin/Main.py" />
+        <option value="$PROJECT_DIR$/sprites/Recs.py" />
+        <option value="$PROJECT_DIR$/sprites/Player.py" />
+        <option value="$PROJECT_DIR$/sprites/Ralph.py" />
         <option value="$PROJECT_DIR$/sprites/Main.py" />
       </list>
     </option>
@@ -75,6 +109,11 @@
             <path>
               <item name="MrFelix" type="b2602c69:ProjectViewProjectNode" />
               <item name="MrFelix" type="462c0819:PsiDirectoryNode" />
+              <item name="Allin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MrFelix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MrFelix" type="462c0819:PsiDirectoryNode" />
               <item name="sprites" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -85,7 +124,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Allin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fix_it_Felix_Jr" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -119,11 +159,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Allin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sprites" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\bparr\PycharmProjects\MrFelix\sprites\Main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sprites/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,17 +189,33 @@
       <option name="presentableId" value="Default" />
       <updated>1563227151912</updated>
     </task>
+    <task id="LOCAL-00001" summary="se agrego la clase ralph que contiene los mismos metodos que player, pero con movimientos alestoreos">
+      <created>1563730172652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563730172652</updated>
+    </task>
+    <task id="LOCAL-00002" summary="se agrego la clase ralph que contiene los mismos metodos que player, pero con movimientos alestoreos">
+      <created>1563743378437</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563743378437</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -175,15 +231,58 @@
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="se agrego la clase ralph que contiene los mismos metodos que player, pero con movimientos alestoreos" />
+    <option name="LAST_COMMIT_MESSAGE" value="se agrego la clase ralph que contiene los mismos metodos que player, pero con movimientos alestoreos" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Juego/Main.py" />
     <entry file="file://$PROJECT_DIR$/Allin/AllSprites.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Allin/image03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Allin/image02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/Main1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/Recs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/Player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/Ralph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sprites/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1921">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+        <state relative-caret-position="32">
+          <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
