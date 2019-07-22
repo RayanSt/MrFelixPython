@@ -80,25 +80,36 @@ class Ralph(pygame.sprite.Sprite):
         (self.rect.top,self.rect.left) = (270,295)
 
     def mover(self, vx, vy):
-        self.rect.move_ip(vx,vy)
+        if ((self.rect.left,self.rect.top) < (490,270) and (self.rect.left,self.rect.top) > (70,270)):
+            self.rect.move_ip(vx,vy)
 
     def update(self, superficie,vx,vy,t, sentido):
-        if sentido == 2:
-            self.imagenesTemporales = self.imagenesEnojado
-        if sentido == 0:
-            self.imagenesTemporales = self.imagenes
-        if sentido == 1:
-            self.imagenesTemporales = self.imagenesIz
-        if (vx,vy) == (0,0):
+        if (vx, vy) == (0, 0):
             self.moviendo = False
         else:
             self.moviendo = True
-        if t%2 == 1:
-            self.imagen_actual += 1
-        if self.imagen_actual>(len(self.imagenesTemporales)-1):
-            self.imagen_actual=0
-        #self.mover(vx, vy)
-        self.imagen = self.imagenesTemporales[self.imagen_actual]
-        if self.moviendo == False:
-            self.imagen = self.imagenesTemporales[0]
+        if sentido == 2:
+            self.imagenesTemporales = self.imagenesEnojado
+            if t % 1 == 1:
+                self.imagen_actual += 1
+            if self.imagen_actual > (len(self.imagenesTemporales) - 1):
+                self.imagen_actual = 0
+            self.imagen = self.imagenesTemporales[self.imagen_actual]
+        if sentido == 0:
+            self.imagenesTemporales = self.imagenes
+            if t % 2 == 1:
+                self.imagen_actual += 1
+            if self.imagen_actual > (len(self.imagenesTemporales) - 1):
+                self.imagen_actual = 0
+            self.imagen = self.imagenesTemporales[self.imagen_actual]
+        if sentido == 1:
+            self.imagenesTemporales = self.imagenesIz
+            if t % 2 == 1:
+                self.imagen_actual += 1
+            if self.imagen_actual > (len(self.imagenesTemporales) - 1):
+                self.imagen_actual = 0
+            self.imagen = self.imagenesTemporales[self.imagen_actual]
+
+        #if self.moviendo == False:
+        #    self.imagen = self.imagenesTemporales[0]
         superficie.blit(self.imagen, self.rect)

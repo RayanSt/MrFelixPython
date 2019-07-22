@@ -99,13 +99,13 @@ def main():
                             vy = 0
         if segundosint%5 == 0:
             termino = True
-            aleatorio = random.randrange(0,2)
-            # if aleatorio == 2:
-            #
-            # if aleatorio == 0:
-            #
-            # if aleatorio == 1:
-
+            aleatorio = random.randrange(0,3)
+        if aleatorio == 2:
+            ralph.mover(0,0);
+        if aleatorio == 0:
+            ralph.mover(2,0)
+        if aleatorio == 1:
+            ralph.mover(-2,0)
         segundosint = int(pygame.time.get_ticks() / 1000)
         segundos = str(segundosint)
         reloj1.tick(20) #20 fps
