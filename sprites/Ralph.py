@@ -80,7 +80,7 @@ class Ralph(pygame.sprite.Sprite):
         (self.rect.top,self.rect.left) = (270,295)
 
     def mover(self, vx, vy):
-        if ((self.rect.left,self.rect.top) < (490,270) and (self.rect.left,self.rect.top) > (70,270)):
+        if ((self.rect.left,self.rect.top) < (350,270) and (self.rect.left,self.rect.top) > (70,270)):
             self.rect.move_ip(vx,vy)
 
     def update(self, superficie,vx,vy,t, sentido):

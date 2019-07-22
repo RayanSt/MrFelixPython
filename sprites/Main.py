@@ -101,7 +101,7 @@ def main():
             termino = True
             aleatorio = random.randrange(0,3)
         if aleatorio == 2:
-            ralph.mover(0,0);
+            ralph.mover(0,0)
         if aleatorio == 0:
             ralph.mover(2,0)
         if aleatorio == 1:

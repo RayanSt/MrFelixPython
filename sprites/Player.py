@@ -14,7 +14,11 @@ class Player(pygame.sprite.Sprite):
         (self.rect.top,self.rect.left) = (560,95)
 
     def mover(self, vx, vy):
-        self.rect.move_ip(vx,vy)
+        (oldx,oldy) = (self.rect.left, self.rect.top)
+        self.rect.move_ip(vx, vy)
+        if ((self.rect.left, self.rect.top) > (350, 570) and (self.rect.left, self.rect.top) < (70, 270)):
+            (self.rect.left, self.rect.top) = (oldx, oldy)
+
 
     def update(self, superficie,vx,vy,t):
         if (vx,vy) == (0,0):
