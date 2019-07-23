@@ -1,9 +1,9 @@
 import random
 import pygame
 
-from sprites.Player import Player
-from sprites.Ralph import Ralph
-from sprites.Recs import Recs
+from Main.Player import Player
+from Main.Ralph import Ralph
+from Main.Recs import Recs
 
 
 def colisiones(player, recs):
