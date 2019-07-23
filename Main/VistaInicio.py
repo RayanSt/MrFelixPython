@@ -34,15 +34,15 @@ def main():
     # fijo las dimensiones de la pantalla a 300,300 y creo una superficie que va ser la principal
     pantalla=pygame.display.set_mode((500,400))
     
-    pygame.display.set_caption("Cambia Colores by Chelin") # Titulo de la Ventana
+    pygame.display.set_caption("MrFelix") # Titulo de la Ventana
     #creo un reloj para controlar los fps
     reloj1=pygame.time.Clock()
     
-    rojo1=pygame.image.load("rojo.png")
-    rojo2=pygame.image.load("rojo2.png")
-    fondo = pygame.image.load("../VistaInicio.png")
-    azul1=pygame.image.load("azul.png")
-    azul2=pygame.image.load("azul2.png")    
+    rojo1=pygame.image.load("../VistaInicio/01.png")
+    rojo2=pygame.image.load("../VistaInicio/02.png")
+    fondo = pygame.image.load("../VistaInicio/inicio.jpg")
+    azul1=pygame.image.load("../VistaInicio/azul.png")
+    azul2=pygame.image.load("../VistaInicio/azul2.png")
     
     boton1=Boton(rojo1,rojo2,200,100)
     boton2=Boton(azul1,azul2,200,200)
@@ -72,6 +72,7 @@ def main():
         
         reloj1.tick(20)#operacion para que todo corra a 20fps
         pantalla.fill(colordefondo) # pinto la superficie de blanco
+        pantalla.blit(fondo,(0,0))
         cursor1.update()
         boton1.update(pantalla,cursor1)
         boton2.update(pantalla, cursor1)

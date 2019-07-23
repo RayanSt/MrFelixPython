@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="096fcb12-f4e3-4c40-8a74-8c3d28003693" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sprites/Enemigos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprites/Item.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprites/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprites/Ralph.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Ralph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprites/VistaInicio.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/VistaInicio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allin/azul.png" beforeDir="false" afterPath="$PROJECT_DIR$/VistaInicio/azul.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allin/azul2.png" beforeDir="false" afterPath="$PROJECT_DIR$/VistaInicio/azul2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allin/rojo.png" beforeDir="false" afterPath="$PROJECT_DIR$/VistaInicio/rojo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allin/rojo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/VistaInicio/rojo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/VistaInicio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/VistaInicio.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +18,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sprites/Main.py">
+        <entry file="file://$PROJECT_DIR$/Main/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="379">
               <caret line="132" column="16" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -30,7 +30,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sprites/Recs.py">
+        <entry file="file://$PROJECT_DIR$/Main/Recs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
@@ -42,7 +42,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sprites/Enemigos.py">
+        <entry file="file://$PROJECT_DIR$/Main/Enemigos.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
@@ -53,7 +53,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sprites/Item.py">
+        <entry file="file://$PROJECT_DIR$/Main/Item.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
               <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
@@ -65,7 +65,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sprites/Ralph.py">
+        <entry file="file://$PROJECT_DIR$/Main/Ralph.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="158">
               <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
@@ -74,7 +74,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sprites/Player.py">
+        <entry file="file://$PROJECT_DIR$/Main/Player.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
@@ -83,27 +83,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sprites/VistaInicio.py">
+        <entry file="file://$PROJECT_DIR$/Main/VistaInicio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+            <state relative-caret-position="51">
+              <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VistaInicio/01.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VistaInicio/02.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VistaInicio/inicio.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -134,6 +119,7 @@
         <option value="$PROJECT_DIR$/sprites/Item.py" />
         <option value="$PROJECT_DIR$/sprites/Player.py" />
         <option value="$PROJECT_DIR$/sprites/VistaInicio.py" />
+        <option value="$PROJECT_DIR$/Main/VistaInicio.py" />
       </list>
     </option>
   </component>
@@ -165,7 +151,7 @@
             <path>
               <item name="MrFelix" type="b2602c69:ProjectViewProjectNode" />
               <item name="MrFelix" type="462c0819:PsiDirectoryNode" />
-              <item name="sprites" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MrFelix" type="b2602c69:ProjectViewProjectNode" />
@@ -184,14 +170,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bparr\PycharmProjects\MrFelix\Allin" />
-      <recent name="C:\Users\bparr\PycharmProjects\MrFelix\sprites" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bparr\PycharmProjects\MrFelix\Allin" />
       <recent name="C:\Users\bparr\PycharmProjects\MrFelix" />
       <recent name="C:\Users\bparr\PycharmProjects\MrFelix\Juego" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bparr\PycharmProjects\MrFelix\VistaInicio" />
+      <recent name="C:\Users\bparr\PycharmProjects\MrFelix\Allin" />
+      <recent name="C:\Users\bparr\PycharmProjects\MrFelix\sprites" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -206,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.VistaInicio">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MrFelix" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,8 +215,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="VistaInicio" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MrFelix" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main/VistaInicio.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.VistaInicio" />
         <item itemvalue="Python.Main" />
       </list>
     </recent_temporary>
@@ -280,19 +289,33 @@
       <option name="project" value="LOCAL" />
       <updated>1563834421523</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Vista de login y nuevos sprites agregados">
+      <created>1563921298154</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563921298154</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Vista de login y nuevos sprites agregados">
+      <created>1563921326640</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563921326640</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,7 +336,8 @@
     <MESSAGE value="ya se imprime al RALPH y cada 6 segundos hace una accion (mover izquierda, mover derecha o enojarse)" />
     <MESSAGE value="Ralph se mueve solo, pero no identifica el limite de la pantalla" />
     <MESSAGE value="la clase player y ralph cuando detectan el milite de la pantalla se les bloquea el moviento (error)" />
-    <option name="LAST_COMMIT_MESSAGE" value="la clase player y ralph cuando detectan el milite de la pantalla se les bloquea el moviento (error)" />
+    <MESSAGE value="Vista de login y nuevos sprites agregados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vista de login y nuevos sprites agregados" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Juego/Main.py" />
@@ -326,7 +350,7 @@
     <entry file="file://$PROJECT_DIR$/Allin/image02.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Main1.py">
+    <entry file="file://$PROJECT_DIR$/Main/Main1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -335,24 +359,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="132" column="16" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Ralph.py">
+    <entry file="file://$PROJECT_DIR$/Main/Ralph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Recs.py">
+    <entry file="file://$PROJECT_DIR$/Main/Recs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
@@ -362,7 +376,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Enemigos.py">
+    <entry file="file://$PROJECT_DIR$/Main/Enemigos.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -371,7 +385,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Item.py">
+    <entry file="file://$PROJECT_DIR$/Main/Item.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
@@ -408,7 +422,7 @@
     <entry file="file://$PROJECT_DIR$/Allin/vida.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Player.py">
+    <entry file="file://$PROJECT_DIR$/Main/Player.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
@@ -418,16 +432,26 @@
     <entry file="file://$PROJECT_DIR$/VistaInicio/01.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/VistaInicio/inicio.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/VistaInicio/02.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/VistaInicio.py">
+    <entry file="file://$PROJECT_DIR$/Main/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        <state relative-caret-position="379">
+          <caret line="132" column="16" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VistaInicio/inicio.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/VistaInicio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
         </state>
       </provider>
     </entry>
