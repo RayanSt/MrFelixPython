@@ -40,6 +40,7 @@ def main():
     
     rojo1=pygame.image.load("rojo.png")
     rojo2=pygame.image.load("rojo2.png")
+    fondo = pygame.image.load("../VistaInicio.png")
     azul1=pygame.image.load("azul.png")
     azul2=pygame.image.load("azul2.png")    
     
@@ -70,7 +71,7 @@ def main():
                 salir=True
         
         reloj1.tick(20)#operacion para que todo corra a 20fps
-        pantalla.fill(colordefondo) # pinto la superficie de blanco        
+        pantalla.fill(colordefondo) # pinto la superficie de blanco
         cursor1.update()
         boton1.update(pantalla,cursor1)
         boton2.update(pantalla, cursor1)
