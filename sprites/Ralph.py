@@ -30,7 +30,11 @@ class Ralph(pygame.sprite.Sprite):
         self.moviendo = False
         self.imagen = self.imagenes[self.imagen_actual]
         self.rect = self.imagen.get_rect()
+        self.vida = 500
         (self.rect.top,self.rect.left) = (270,295)
+
+    def RestarVida(self):
+        self.vida -= 10
 
     def mover(self, vx, vy):
         (oldx) = (self.rect.left)

@@ -21,13 +21,13 @@ class Enemigos(pygame.sprite.Sprite):
         self.rect = self.imagen.get_rect()
 
         leftrandom = random.randrange(480, 550)
-        toprandom = random.randrange(10,590)
+        toprandom = random.randrange(270,590)
         (self.rect.top, self.rect.left) = (toprandom,leftrandom)
 
 
     def reagregar(self):
                 leftrandom = random.randrange(480, 550)
-                toprandom = random.randrange(590, 10)
+                toprandom = random.randrange(270, 590)
                 (self.rect.top, self.rect.left) = (toprandom, leftrandom)
 
     def agregarotro(self):
