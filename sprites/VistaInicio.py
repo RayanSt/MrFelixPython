@@ -52,7 +52,8 @@ def main():
     azul=(0,0,200)
     colordefondo=blanco
     
-    pygame.mixer.music()
+    pygame.mixer.music.load("../VistaInicio/espera.mp3")
+    pygame.mixer.music.play(2)
     salir=False
     #LOOP PRINCIPAL
     while salir!=True:

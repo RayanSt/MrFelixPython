@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="096fcb12-f4e3-4c40-8a74-8c3d28003693" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Enemigos.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Enemigos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Item.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Item.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Main1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Ralph.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Ralph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Recs.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Recs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/VistaInicio.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/VistaInicio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/VistaInicio.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/VistaInicio.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sprites/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="17">
+              <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -35,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sprites/Enemigos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="136">
               <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -56,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sprites/Item.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="663">
               <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -65,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sprites/VistaInicio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            <state relative-caret-position="204">
+              <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -100,10 +93,10 @@
         <option value="$PROJECT_DIR$/sprites/Player.py" />
         <option value="$PROJECT_DIR$/Main/VistaInicio.py" />
         <option value="$PROJECT_DIR$/Main/Main.py" />
-        <option value="$PROJECT_DIR$/sprites/Main.py" />
         <option value="$PROJECT_DIR$/sprites/Item.py" />
         <option value="$PROJECT_DIR$/sprites/Enemigos.py" />
         <option value="$PROJECT_DIR$/sprites/VistaInicio.py" />
+        <option value="$PROJECT_DIR$/sprites/Main.py" />
       </list>
     </option>
   </component>
@@ -291,14 +284,28 @@
       <option name="project" value="LOCAL" />
       <updated>1563921326640</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="toco volver a poner de nombre sprites por la ubicacion, ya vista tiene el fondo y los botones">
+      <created>1563937167639</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563937167639</updated>
+    </task>
+    <task id="LOCAL-00009" summary="toco volver a poner de nombre sprites por la ubicacion, ya vista tiene el fondo y los botones">
+      <created>1563937678189</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563937678189</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -325,7 +332,8 @@
     <MESSAGE value="Ralph se mueve solo, pero no identifica el limite de la pantalla" />
     <MESSAGE value="la clase player y ralph cuando detectan el milite de la pantalla se les bloquea el moviento (error)" />
     <MESSAGE value="Vista de login y nuevos sprites agregados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vista de login y nuevos sprites agregados" />
+    <MESSAGE value="toco volver a poner de nombre sprites por la ubicacion, ya vista tiene el fondo y los botones" />
+    <option name="LAST_COMMIT_MESSAGE" value="toco volver a poner de nombre sprites por la ubicacion, ya vista tiene el fondo y los botones" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Juego/Main.py" />
@@ -385,23 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Allin/BirdLeft.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -423,29 +414,28 @@
     <entry file="file://$PROJECT_DIR$/Allin/Item2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Item.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Main1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-947">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/Main1.py" />
     <entry file="file://$PROJECT_DIR$/sprites/Enemigos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="136">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/Player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/Item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -454,8 +444,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sprites/VistaInicio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        <state relative-caret-position="204">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
