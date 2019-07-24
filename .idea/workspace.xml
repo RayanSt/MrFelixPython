@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="096fcb12-f4e3-4c40-8a74-8c3d28003693" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprites/Bloqueo.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Bloqueo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprites/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/colisionando.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprites/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprites/VistaInicio.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/VistaInicio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/Recs.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Recs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/colisionando.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/colisionando.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sprites/colisionando.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+            <state relative-caret-position="256">
+              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -52,10 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sprites/Recs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="124">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -67,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/sprites/Bloqueo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="277">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -140,13 +139,13 @@
         <option value="$PROJECT_DIR$/sprites/Item.py" />
         <option value="$PROJECT_DIR$/sprites/Blocks.py" />
         <option value="$PROJECT_DIR$/sprites/VistaInicio.py" />
-        <option value="$PROJECT_DIR$/sprites/Recs.py" />
         <option value="$PROJECT_DIR$/sprites/Enemigos.py" />
         <option value="$PROJECT_DIR$/sprites/Ralph.py" />
         <option value="$PROJECT_DIR$/sprites/Main.py" />
-        <option value="$PROJECT_DIR$/sprites/Bloqueo.py" />
         <option value="$PROJECT_DIR$/sprites/Player.py" />
+        <option value="$PROJECT_DIR$/sprites/Bloqueo.py" />
         <option value="$PROJECT_DIR$/sprites/colisionando.py" />
+        <option value="$PROJECT_DIR$/sprites/Recs.py" />
       </list>
     </option>
   </component>
@@ -399,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563971013848</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ya se puede jugar pero completo pero no hay animacion de martillo">
+      <created>1563975079513</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1563975079513</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -438,7 +444,8 @@
     <MESSAGE value="le falta que felix pueda golpear a Ralph y aparezca la colision para subir donde el esta" />
     <MESSAGE value="solo aplicar patrones" />
     <MESSAGE value="Ralph tiene vida y se le resta cuando se esta al lado y se presiona space" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ralph tiene vida y se le resta cuando se esta al lado y se presiona space" />
+    <MESSAGE value="Ya se puede jugar pero completo pero no hay animacion de martillo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ya se puede jugar pero completo pero no hay animacion de martillo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Juego/Main.py" />
@@ -527,15 +534,6 @@
     <entry file="file://$PROJECT_DIR$/Allin/vida1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Recs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sprites/Ralph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-468">
@@ -543,10 +541,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Enemigos.py">
+    <entry file="file://$PROJECT_DIR$/sprites/Player.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        <state relative-caret-position="255">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/Bloqueo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -563,27 +568,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Bloqueo.py">
+    <entry file="file://$PROJECT_DIR$/sprites/Enemigos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="493">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Player.py">
+    <entry file="file://$PROJECT_DIR$/sprites/colisionando.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="256">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/colisionando.py">
+    <entry file="file://$PROJECT_DIR$/sprites/Recs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="126" column="37" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+        <state relative-caret-position="124">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

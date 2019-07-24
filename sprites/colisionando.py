@@ -46,7 +46,7 @@ def main():
     bloqueo = Bloqueo()
     velocidadX = 65
     velocidadY = 100
-    recs1 = Recs(25)
+    recs1 = Recs(10)
     left_apretada, right_apretada,top_apretada, down_apretada = False,False,False,False
     colisiono = False
     t=0
@@ -115,7 +115,7 @@ def main():
         pantalla.blit(imagenfondo, (0, 0))
         if segundosint % 5 == 0:
             termino = True
-            aleatorio = random.randrange(0,2)
+            aleatorio = random.randrange(0,3)
         if segundosint % 10 == 0:
             items.RandomPosiscion()
 
@@ -139,8 +139,7 @@ def main():
         if aleatorio == 1:
             ralph.mover(-2,0)
 
-        if ((bloqueo.lista.left,bloqueo.lista.top) == (0,350)):
-            player.PuedeSubir = False
+        if (((bloqueo.lista.left,bloqueo.lista.top) == (90,345)) and (player.rect.top < 345)):
             player.rect.left = 95
             player.rect.top = 560
 
@@ -180,10 +179,10 @@ def main():
         pantalla.blit(contador2, (80, 10))
         pantalla.blit(contador, (350, 10))
         pantalla.blit(contador3,(170, 15))
+        bloqueo.pintar(pantalla)
         items.pintar(pantalla,t)
         recs1.pintar(pantalla)
         enemigos.pintar(pantalla,t)
-        bloqueo.pintar(pantalla)
         pygame.display.update()
       #  pantalla.blit(ralphIma,(360,95))
 

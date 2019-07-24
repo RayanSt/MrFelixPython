@@ -9,7 +9,7 @@ class Recs(object):
         for x in range(numeroinicial):
             leftrandom = random.randrange(2,790)
             toprandom = random.randrange(-590,-10)
-            width = random.randrange(1,5)
+            width = random.randrange(3,6)
             hight = random.randrange(15,30)
             self.lista.append(pygame.Rect(leftrandom,toprandom,width,hight))
 
@@ -31,4 +31,4 @@ class Recs(object):
 
     def pintar(self,superficie):
         for rectangulo in self.lista:
-            pygame.draw.rect(superficie,(0,0,0),rectangulo)
+            pygame.draw.rect(superficie,(70, 70, 190),rectangulo)
