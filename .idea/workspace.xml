@@ -437,7 +437,7 @@
     <MESSAGE value="se agrego la clase ralph que contiene los mismos metodos que player, pero con movimientos alestoreos" />
     <MESSAGE value="ya se imprime al RALPH y cada 6 segundos hace una accion (mover izquierda, mover derecha o enojarse)" />
     <MESSAGE value="Ralph se mueve solo, pero no identifica el limite de la pantalla" />
-    <MESSAGE value="la clase player y ralph cuando detectan el milite de la pantalla se les bloquea el moviento (error)" />
+    <MESSAGE value="la clase player y ralph cuando detectan el limite de la pantalla se les bloquea el moviento (error)" />
     <MESSAGE value="Vista de login y nuevos sprites agregados" />
     <MESSAGE value="toco volver a poner de nombre sprites por la ubicacion, ya vista tiene el fondo y los botones" />
     <MESSAGE value="agregue musica al inicio" />
