@@ -1,7 +1,7 @@
 # Chelin Tutorials Todos los Derechos Reservados
 # www.chelintutorials.blogspot.com
 #Como cambiar el fondo con botones
-
+import sprites.Main
 import pygame 
  # importo el modulo
 
@@ -41,19 +41,18 @@ def main():
     rojo1=pygame.image.load("../VistaInicio/01.png")
     rojo2=pygame.image.load("../VistaInicio/02.png")
     fondo = pygame.image.load("../VistaInicio/inicio.jpg")
-    azul1=pygame.image.load("../VistaInicio/azul.png")
-    azul2=pygame.image.load("../VistaInicio/azul2.png")
+    #azul1=pygame.image.load("../VistaInicio/azul.png")
+    #azul2=pygame.image.load("../VistaInicio/azul2.png")
     
     boton1=Boton(rojo1,rojo2,-52,120)
-    boton2=Boton(azul1,azul2,35,100)
+    #boton2=Boton(azul1,azul2,35,100)
     cursor1=Cursor()
-    
     blanco=(255,255,255) # color blanco en RGB
     rojo=(200,0,0)
     azul=(0,0,200)
     colordefondo=blanco
     
-    
+    pygame.mixer.music()
     salir=False
     #LOOP PRINCIPAL
     while salir!=True:
@@ -62,9 +61,11 @@ def main():
         for event in pygame.event.get():
             if event.type==pygame.MOUSEBUTTONDOWN:
                 if cursor1.colliderect(boton1.rect):
+                    sprites.Main.main()
+                    salir = True
                     colordefondo=rojo
-                if cursor1.colliderect(boton2.rect):
-                    colordefondo=azul
+                #if cursor1.colliderect(boton2.rect):
+                #    colordefondo=azul
             
             # pygame.QUIT( cruz de la ventana)
             if event.type == pygame.QUIT:
@@ -75,7 +76,7 @@ def main():
         pantalla.blit(fondo,(0,0))
         cursor1.update()
         boton1.update(pantalla,cursor1)
-        boton2.update(pantalla, cursor1)
+        #boton2.update(pantalla, cursor1)
 
         
         pygame.display.update() #actualizo el display
