@@ -4,6 +4,14 @@ import pygame
 
 
 class Recs(object):
+    # __instance = None
+    #
+    # def get_instacia(cls):
+    #     if not Recs.__instance:
+    #         cls.__instance = Recs()
+    #     return cls.__instance
+
+
     def __init__(self, numeroinicial):
         self.lista = []
         for x in range(numeroinicial):

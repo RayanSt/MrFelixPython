@@ -37,6 +37,7 @@ def main():
     #variable auxiliares
     segundosint = 0
     segundos = ""
+    aleatorio = 0
     (vx,vy) = (0,0)
     player = Player()
     ralph = Ralph()
@@ -149,6 +150,9 @@ def main():
             t = 0
         bloques.pintar(pantalla)
         ralph.update(pantalla, vx, vy, t,aleatorio)
+
+        if ralph.vida <= 0:
+            colisiono = True
 
         if colisiones(player,recs1) or player.rect.colliderect(enemigos.rect) or colisiones(player,bloques):
             colisiono = True

@@ -3,7 +3,13 @@ import random
 import pygame
 
 
-class Blocks(pygame.sprite.Sprite):
+class Blocks(pygame.sprite.Sprite, object):
+    __instance = None
+
+    def get_instacia(cls):
+        if not Blocks.__instance:
+            cls.__instance = Blocks()
+        return cls.__instance
 
     def __init__(self):
         self.imagen1 = pygame.image.load("../Allin/Block.png").convert_alpha()

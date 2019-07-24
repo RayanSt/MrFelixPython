@@ -1,7 +1,17 @@
 import pygame
 
+from sprites.Jugadores import Jugadores
 
-class Player(pygame.sprite.Sprite):
+
+class Player(pygame.sprite.Sprite,Jugadores, object):
+    # __instance = None
+    #
+    # def get_instacia(cls):
+    #     if not Player.__instance:
+    #         cls.__instance = Player()
+    #     return cls.__instance
+
+
     def __init__(self):
         self.puntaje = 0
         self.vidas = 3

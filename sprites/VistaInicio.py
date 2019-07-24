@@ -1,6 +1,4 @@
-# Chelin Tutorials Todos los Derechos Reservados
-# www.chelintutorials.blogspot.com
-#Como cambiar el fondo con botones
+
 import sprites.colisionando
 import pygame 
  # importo el modulo

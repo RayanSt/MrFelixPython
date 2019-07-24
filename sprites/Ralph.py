@@ -1,7 +1,13 @@
 import pygame
 
 
-class Ralph(pygame.sprite.Sprite):
+class Ralph(pygame.sprite.Sprite, object):
+    # __instance = None
+    #
+    # def get_instacia(cls):
+    #     if not Ralph.__instance:
+    #         cls.__instance = Ralph()
+    #     return cls.__instance
 
     def __init__(self):
 

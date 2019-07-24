@@ -4,6 +4,13 @@ import pygame
 
 
 class Bloqueo(object):
+    # __instance = None
+    #
+    # def get_instacia(cls):
+    #     if not Bloqueo.__instance:
+    #         cls.__instance = Bloqueo()
+    #     return cls.__instance
+
     def __init__(self):
         self.leftrandom = 90
         self.toprandom = 345

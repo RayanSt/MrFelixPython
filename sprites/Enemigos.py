@@ -3,7 +3,13 @@ import random
 import pygame
 
 
-class Enemigos(pygame.sprite.Sprite):
+class Enemigos(pygame.sprite.Sprite,object):
+    __instance = None
+
+    def get_instacia(cls):
+        if not Enemigos.__instance:
+            cls.__instance = Enemigos()
+        return cls.__instance
 
     def __init__(self):
         self.imagen1 = pygame.image.load("../Allin/BirdLeft.png").convert_alpha()
