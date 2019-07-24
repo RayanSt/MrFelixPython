@@ -3,7 +3,7 @@ import random
 import pygame
 
 
-class Recs(object):
+class Bloqueo(object):
     def __init__(self, numeroinicial):
         self.lista = []
         for x in range(numeroinicial):

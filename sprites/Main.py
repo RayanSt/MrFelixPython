@@ -1,6 +1,9 @@
 import random
 import pygame
 
+from sprites.Blocks import Blocks
+from sprites.Enemigos import Enemigos
+from sprites.Item import Item
 from sprites.Player import Player
 from sprites.Ralph import Ralph
 from sprites.Recs import Recs
@@ -21,13 +24,15 @@ def main():
     pantalla = pygame.display.set_mode([480,640])
     pygame.display.set_caption("Game")
     explosion = pygame.mixer.Sound("../Allin/explosion.wav")
-    exploto = pygame.image.load("../Allin/explosion.png")
+    exploto = pygame.image.load("../Allin/explosion.png").convert_alpha()
     ralphIma = pygame.image.load("../Allin/quieto.png")
     salir = False
     #reloj
     reloj1 = pygame.time.Clock()
     imagenfondo = pygame.image.load("../Allin/fondo.png").convert_alpha()
-    pygame.mixer.music.load("../Allin/musica.mp3")
+    pygame.mixer.music.load("../Allin/music.mp3")
+    fuente = pygame.font.SysFont("Arcade Normal", 24, True, False)
+    info = fuente.render("Tienes 10 segundos", 0, rojizo)
 
     #variable auxiliares
     segundosint = 0
@@ -35,6 +40,9 @@ def main():
     (vx,vy) = (0,0)
     player = Player()
     ralph = Ralph()
+    enemigos = Enemigos()
+    bloques = Blocks()
+    items = Item()
     velocidadX = 65
     velocidadY = 100
     recs1 = Recs(25)
@@ -44,7 +52,7 @@ def main():
     sentidoDere = True
     t=0
 
-    pygame.mixer.music.play(2)
+    pygame.mixer.music.play(3)
     while salir!=True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -97,34 +105,57 @@ def main():
                             vy = velocidadY
                         else:
                             vy = 0
-        if segundosint%5 == 0:
+        pantalla.fill(blanco)
+        pantalla.blit(imagenfondo, (0, 0))
+        if segundosint % 5 == 0:
             termino = True
             aleatorio = random.randrange(0,3)
+        if segundosint % 15 == 0:
+            items.RandomPosiscion()
+        if segundosint % 20 == 0:
+            items.rect.left = -20
+            items.rect.top = -20
         if aleatorio == 2:
             ralph.mover(0,0)
+            bloques.reagregar(ralph.rect.top + 80,ralph.rect.left)
+
+        reloj1.tick(20)
         if aleatorio == 0:
             ralph.mover(2,0)
         if aleatorio == 1:
             ralph.mover(-2,0)
         segundosint = int(pygame.time.get_ticks() / 1000)
         segundos = str(segundosint)
-        reloj1.tick(20) #20 fps
+         #20 fps
         t += 1
         if t > 11:
             t = 0
-        pantalla.fill(blanco)
-        pantalla.blit(imagenfondo,(0,0))
+        bloques.pintar(pantalla)
         ralph.update(pantalla, vx, vy, t,aleatorio)
-        if colisiones(player,recs1):
+
+        if colisiones(player,recs1) or player.rect.colliderect(enemigos.rect) or colisiones(player,bloques):
             colisiono = True
+            pygame.mixer.music.stop()
             player.imagen = exploto
             explosion.play()
-            pygame.mixer.music.stop()
-        if colisiono == False:
-            recs1.mover()
-            player.update(pantalla,vx,vy,t)
+            explosion.set_volume(-80)
 
+        if player.rect.colliderect(items.rect):
+            player.puntaje = player
+        if colisiono == False:
+            bloques.mover()
+            recs1.mover()
+            enemigos.mover()
+            player.update(pantalla,vx,vy,t)
+            player.AumentarPuntaje()
+            contador = fuente.render(segundos + "'s", 0, blanco)
+            contador2 = fuente.render("score: " + str(int(player.puntaje)), 0, blanco)
+
+        pantalla.blit(contador2, (80, 10))
+        pantalla.blit(contador, (350, 10))
+        items.pintar(pantalla,t)
         recs1.pintar(pantalla)
+        enemigos.pintar(pantalla,t)
         pygame.display.update()
       #  pantalla.blit(ralphIma,(360,95))
 

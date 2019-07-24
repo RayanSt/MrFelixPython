@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="096fcb12-f4e3-4c40-8a74-8c3d28003693" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sprites/Blocks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sprites/Bloqueo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Allin/explosion.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Allin/explosion.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/Enemigos.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Enemigos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/Item.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/Ralph.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Ralph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/Recs.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/Recs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sprites/VistaInicio.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprites/VistaInicio.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sprites/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+            <state relative-caret-position="39">
+              <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -28,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sprites/Enemigos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="243">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -38,10 +47,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sprites/Blocks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-131">
+              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sprites/Recs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sprites/Bloqueo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sprites/Ralph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sprites/Player.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="107">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -49,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sprites/Item.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+            <state relative-caret-position="136">
+              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -61,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sprites/VistaInicio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+            <state relative-caret-position="1224">
+              <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -88,15 +141,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Allin/Main.py" />
-        <option value="$PROJECT_DIR$/sprites/Ralph.py" />
-        <option value="$PROJECT_DIR$/sprites/Recs.py" />
-        <option value="$PROJECT_DIR$/sprites/Player.py" />
         <option value="$PROJECT_DIR$/Main/VistaInicio.py" />
         <option value="$PROJECT_DIR$/Main/Main.py" />
+        <option value="$PROJECT_DIR$/sprites/Ralph.py" />
         <option value="$PROJECT_DIR$/sprites/Item.py" />
+        <option value="$PROJECT_DIR$/sprites/Blocks.py" />
         <option value="$PROJECT_DIR$/sprites/Enemigos.py" />
         <option value="$PROJECT_DIR$/sprites/VistaInicio.py" />
+        <option value="$PROJECT_DIR$/sprites/Recs.py" />
+        <option value="$PROJECT_DIR$/sprites/Player.py" />
         <option value="$PROJECT_DIR$/sprites/Main.py" />
+        <option value="$PROJECT_DIR$/sprites/Bloqueo.py" />
       </list>
     </option>
   </component>
@@ -112,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,24 +194,23 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fix_it_Felix_Jr" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\bparr\PycharmProjects\MrFelix\Allin" />
-      <recent name="C:\Users\bparr\PycharmProjects\MrFelix" />
-      <recent name="C:\Users\bparr\PycharmProjects\MrFelix\Juego" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bparr\PycharmProjects\MrFelix\VistaInicio" />
       <recent name="C:\Users\bparr\PycharmProjects\MrFelix\Allin" />
       <recent name="C:\Users\bparr\PycharmProjects\MrFelix\sprites" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bparr\PycharmProjects\MrFelix\Allin" />
+      <recent name="C:\Users\bparr\PycharmProjects\MrFelix" />
+      <recent name="C:\Users\bparr\PycharmProjects\MrFelix\Juego" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -170,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.VistaInicio">
+  <component name="RunManager" selected="Python.Main">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MrFelix" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,8 +274,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.VistaInicio" />
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.VistaInicio" />
       </list>
     </recent_temporary>
   </component>
@@ -298,19 +353,26 @@
       <option name="project" value="LOCAL" />
       <updated>1563937678189</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="agregue musica al inicio">
+      <created>1563938610386</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563938610386</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,7 +395,8 @@
     <MESSAGE value="la clase player y ralph cuando detectan el milite de la pantalla se les bloquea el moviento (error)" />
     <MESSAGE value="Vista de login y nuevos sprites agregados" />
     <MESSAGE value="toco volver a poner de nombre sprites por la ubicacion, ya vista tiene el fondo y los botones" />
-    <option name="LAST_COMMIT_MESSAGE" value="toco volver a poner de nombre sprites por la ubicacion, ya vista tiene el fondo y los botones" />
+    <MESSAGE value="agregue musica al inicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregue musica al inicio" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Juego/Main.py" />
@@ -355,9 +418,6 @@
     <entry file="file://$PROJECT_DIR$/Allin/felix.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Allin/vida1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Allin/vida2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -376,23 +436,6 @@
     <entry file="file://$PROJECT_DIR$/VistaInicio/inicio.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Recs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Ralph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Allin/BirdLeft.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -408,34 +451,51 @@
     <entry file="file://$PROJECT_DIR$/Allin/image03.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Allin/Item.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Allin/Item2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sprites/Main1.py" />
-    <entry file="file://$PROJECT_DIR$/sprites/Enemigos.py">
+    <entry file="file://$PROJECT_DIR$/Allin/Item.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://C:/Programs/Python/Python37/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/Ralph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/Item.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Player.py">
+    <entry file="file://$PROJECT_DIR$/sprites/Blocks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="-131">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/Item.py">
+    <entry file="file://$PROJECT_DIR$/sprites/Enemigos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        <state relative-caret-position="243">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -444,15 +504,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sprites/VistaInicio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        <state relative-caret-position="1224">
+          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Allin/vida1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/Player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sprites/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+        <state relative-caret-position="39">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/Recs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprites/Bloqueo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

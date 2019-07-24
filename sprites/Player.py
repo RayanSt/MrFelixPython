@@ -25,10 +25,12 @@ class Player(pygame.sprite.Sprite):
 
     def RestarVida(self):
         self.vidas -= 1
-        return self.vidas
+
+    def TomoItem(self):
+        self.puntaje += 100
 
     def AumentarPuntaje(self):
-        self.puntaje += 2
+        self.puntaje += 0.1
 
     def mover(self, vx, vy):
         (oldx,oldy) = (self.rect.left, self.rect.top)
