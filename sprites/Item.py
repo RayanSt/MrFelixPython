@@ -6,14 +6,14 @@ import pygame
 class Enemigos(pygame.Sprites.sprites):
 
     def __init__(self, numeroinicial):
-        self.imagen1 = pygame.image.load("../Allin/quieto.png").convert_alpha()
-        self.imagen2 = pygame.image.load("../Allin/arriba.png").convert_alpha()
+        self.imagen1 = pygame.image.load("../Allin/Block.png").convert_alpha()
+        self.imagen2 = pygame.image.load("../Allin/Block2.png").convert_alpha()
         self.imagenes = [self.imagen1, self.imagen2]
         self.imagen_actual = 0
         self.moviendo = False
         self.imagen = self.imagenes[self.imagen_actual]
         self.rect = self.imagen.get_rect()
-        (self.rect.top, self.rect.left) = (560, 95)
+        #(self.rect.top, self.rect.left) = (560, 95)
         self.lista = []
         for x in range(numeroinicial):
             leftrandom = random.randrange(2,790)

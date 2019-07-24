@@ -12,7 +12,7 @@ class Cursor(pygame.Rect):
         self.left,self.top=pygame.mouse.get_pos()
 
 class Boton(pygame.sprite.Sprite):
-    def __init__(self,imagen1,imagen2,x=200,y=200):
+    def __init__(self,imagen1,imagen2,x=100,y=100):
         self.imagen_normal=imagen1
         self.imagen_seleccion=imagen2
         self.imagen_actual=self.imagen_normal
@@ -32,7 +32,7 @@ def main():
     pygame.init() # inicializo el modulo
     
     # fijo las dimensiones de la pantalla a 300,300 y creo una superficie que va ser la principal
-    pantalla=pygame.display.set_mode((500,400))
+    pantalla=pygame.display.set_mode((192,300))
     
     pygame.display.set_caption("MrFelix") # Titulo de la Ventana
     #creo un reloj para controlar los fps
@@ -44,8 +44,8 @@ def main():
     azul1=pygame.image.load("../VistaInicio/azul.png")
     azul2=pygame.image.load("../VistaInicio/azul2.png")
     
-    boton1=Boton(rojo1,rojo2,200,100)
-    boton2=Boton(azul1,azul2,200,200)
+    boton1=Boton(rojo1,rojo2,-52,120)
+    boton2=Boton(azul1,azul2,35,100)
     cursor1=Cursor()
     
     blanco=(255,255,255) # color blanco en RGB

@@ -1,9 +1,9 @@
 import random
 import pygame
 
-from Main.Player import Player
-from Main.Ralph import Ralph
-from Main.Recs import Recs
+from sprites.Player import Player
+from sprites.Ralph import Ralph
+from sprites.Recs import Recs
 
 
 def colisiones(player, recs):
@@ -19,7 +19,7 @@ def main():
     azulado = (70, 70, 190)
     negro = (0,0,0)
     pantalla = pygame.display.set_mode([480,640])
-    pygame.display.set_caption("Ventana")
+    pygame.display.set_caption("Game")
     explosion = pygame.mixer.Sound("../Allin/explosion.wav")
     exploto = pygame.image.load("../Allin/explosion.png")
     ralphIma = pygame.image.load("../Allin/quieto.png")

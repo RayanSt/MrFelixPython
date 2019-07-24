@@ -6,9 +6,12 @@ import pygame
 class Enemigos(pygame.Sprites.sprites):
 
     def __init__(self, numeroinicial):
-        self.imagen1 = pygame.image.load("../Allin/quieto.png").convert_alpha()
-        self.imagen2 = pygame.image.load("../Allin/arriba.png").convert_alpha()
+        self.imagen1 = pygame.image.load("../Allin/BirdLeft.png").convert_alpha()
+        self.imagen2 = pygame.image.load("../Allin/BirdLeft2.png").convert_alpha()
+        self.imagen3 = pygame.image.load("../Allin/BirdRight.png").convert_alpha()
+        self.imagen4 = pygame.image.load("../Allin/BirdRight2.png").convert_alpha()
         self.imagenes = [self.imagen1, self.imagen2]
+        self.imagenesDe = [self.imagen3, self.imagen4]
         self.imagen_actual = 0
         self.moviendo = False
         self.imagen = self.imagenes[self.imagen_actual]
