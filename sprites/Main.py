@@ -48,8 +48,6 @@ def main():
     recs1 = Recs(25)
     left_apretada, right_apretada,top_apretada, down_apretada = False,False,False,False
     colisiono = False
-    acabado = False
-    sentidoDere = True
     t=0
 
     pygame.mixer.music.play(3)
@@ -110,9 +108,9 @@ def main():
         if segundosint % 5 == 0:
             termino = True
             aleatorio = random.randrange(0,3)
-        if segundosint % 15 == 0:
+        if segundosint % 4 == 0:
             items.RandomPosiscion()
-        if segundosint % 20 == 0:
+        if segundosint % 8 == 0:
             items.rect.left = -20
             items.rect.top = -20
         if aleatorio == 2:
@@ -137,11 +135,16 @@ def main():
             colisiono = True
             pygame.mixer.music.stop()
             player.imagen = exploto
-            explosion.play()
+            explosion.play(1)
             explosion.set_volume(-80)
 
         if player.rect.colliderect(items.rect):
-            player.puntaje = player
+            player.TomoItem()
+            items.rect.left = -20
+            items.rect.top = -20
+
+
+
         if colisiono == False:
             bloques.mover()
             recs1.mover()
