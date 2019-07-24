@@ -31,4 +31,4 @@ class Recs(object):
 
     def pintar(self,superficie):
         for rectangulo in self.lista:
-            pygame.draw.rect(superficie,(255,255,255),rectangulo)
+            pygame.draw.rect(superficie,(0,0,0),rectangulo)

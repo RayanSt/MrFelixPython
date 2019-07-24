@@ -1,7 +1,7 @@
 # Chelin Tutorials Todos los Derechos Reservados
 # www.chelintutorials.blogspot.com
 #Como cambiar el fondo con botones
-import sprites.Main
+import sprites.colisionando
 import pygame 
  # importo el modulo
 
@@ -62,7 +62,7 @@ def main():
         for event in pygame.event.get():
             if event.type==pygame.MOUSEBUTTONDOWN:
                 if cursor1.colliderect(boton1.rect):
-                    sprites.Main.main()
+                    sprites.colisionando.main()
                     salir = True
                     colordefondo=rojo
                 #if cursor1.colliderect(boton2.rect):

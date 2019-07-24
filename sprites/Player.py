@@ -18,6 +18,7 @@ class Player(pygame.sprite.Sprite):
         self.itemTomado = [self.imagen6,self.imagen7,self.imagen8]
         self.imagen_actual = 0
         self.moviendo = False
+        self.PuedeSubir = False
         self.imagen = self.imagenes[self.imagen_actual]
         self.Martillo = self.martillado
         self.rect = self.imagen.get_rect()
@@ -33,8 +34,12 @@ class Player(pygame.sprite.Sprite):
         self.puntaje += 0.1
 
     def mover(self, vx, vy):
-        (oldx,oldy) = (self.rect.left, self.rect.top)
+        (oldx, oldy) = (self.rect.left, self.rect.top)
         self.rect.move_ip(vx, vy)
+        if self.PuedeSubir == False:
+            if self.rect.top < 345:
+                self.rect.top = oldy
+
         if ((self.rect.left) > 400 or (self.rect.left) < 70):
             self.rect.left = oldx
         if self.rect.top > 570:

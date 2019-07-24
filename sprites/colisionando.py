@@ -2,6 +2,7 @@ import random
 import pygame
 
 from sprites.Blocks import Blocks
+from sprites.Bloqueo import Bloqueo
 from sprites.Enemigos import Enemigos
 from sprites.Item import Item
 from sprites.Player import Player
@@ -42,6 +43,7 @@ def main():
     enemigos = Enemigos()
     bloques = Blocks()
     items = Item()
+    bloqueo = Bloqueo()
     velocidadX = 65
     velocidadY = 100
     recs1 = Recs(25)
@@ -113,12 +115,22 @@ def main():
         pantalla.blit(imagenfondo, (0, 0))
         if segundosint % 5 == 0:
             termino = True
-            aleatorio = random.randrange(0,3)
+            aleatorio = random.randrange(0,2)
         if segundosint % 10 == 0:
             items.RandomPosiscion()
+
+        if segundosint % 15 == 0:
+            player.PuedeSubir = True
+            bloqueo.mover()
+
+        if segundosint % 27 == 0:
+            player.PuedeSubir = False
+            bloqueo.regresar()
+
         if segundosint % 19 == 0:
             items.rect.left = -20
             items.rect.top = -20
+
         if aleatorio == 2:
             ralph.mover(0,0)
             bloques.reagregar(ralph.rect.top + 80,ralph.rect.left)
@@ -126,6 +138,11 @@ def main():
             ralph.mover(2,0)
         if aleatorio == 1:
             ralph.mover(-2,0)
+
+        if ((bloqueo.lista.left,bloqueo.lista.top) == (0,350)):
+            player.PuedeSubir = False
+            player.rect.left = 95
+            player.rect.top = 560
 
          #20 fps
         t += 1
@@ -158,12 +175,15 @@ def main():
             contador2 = fuente.render("score: " + str(int(player.puntaje)), 0, blanco)
             contador3 = fuente.render("vida Ralph: " + str((ralph.vida)), 0, blanco)
 
+
+
         pantalla.blit(contador2, (80, 10))
         pantalla.blit(contador, (350, 10))
         pantalla.blit(contador3,(170, 15))
         items.pintar(pantalla,t)
         recs1.pintar(pantalla)
         enemigos.pintar(pantalla,t)
+        bloqueo.pintar(pantalla)
         pygame.display.update()
       #  pantalla.blit(ralphIma,(360,95))
 
